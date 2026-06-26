@@ -10,13 +10,22 @@
 
   --color-choclate: #666666;
   --color-gray: #808080;
+  --color-fullgray: #999999;
+
   --color-darkgray: #333333;
   --color-fornav: #999999;
   --color-greens: #00B207;
+  --color-shadowgreens: #2C742F;
+
+  --color-headings: #1A1A1A;
+
 
 }
 @layer base {
   body {
     font-family: var(--font-poppins);
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--color-headings);
+    }
   }
 }

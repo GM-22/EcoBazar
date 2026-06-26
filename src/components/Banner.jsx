@@ -12,7 +12,7 @@ import moneyBackIcon from "../assets/box.jpg";
 
 const Banner = () => {
   return (
-    <div className="mt-6">
+    <div className="mt-6 mb-15 ">
       <Container>
         <div className="mb-6 grid grid-cols-[872px_1fr] gap-6 justify-between items-center">
           <div>
@@ -21,7 +21,7 @@ const Banner = () => {
               style={{ backgroundImage: `url(${hero})` }}
             >
               <div className="text-white">
-                <h1 className="text-5xl font-semibold leading-tight">
+                <h1 className="text-5xl font-semibold text-white leading-tight">
                   Fresh & Healthy
                   <br />
                   Organic Food
@@ -84,7 +84,7 @@ const Banner = () => {
     Best Deal
   </p>
 
-  <h2 className="text-[32px] font-semibold leading-tight mt-4">
+  <h2 className="text-white text-[32px] font-semibold leading-tight mt-4">
     Special Products
     <br />
     Deal of the Month
@@ -99,7 +99,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-             <div className="mb-15 rounded-lg shadow-xl p-10">
+             <div className="mb-15 rounded-lg shadow-xl/20 p-10">
       <div className="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
         
         {/* Free Shipping */}
