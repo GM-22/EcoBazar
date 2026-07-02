@@ -14,8 +14,7 @@ import tomato from "../assets/tomato.jpg";
 import apple from "../assets/apple.jpg";
 import mango from "../assets/mango.jpg";
 import star from "../assets/Star.svg";
-import whitestar from "../assets/whitestart.svg";
-import Bag from "../assets/Bag.svg";
+
 
 const HotDeals = () => {
   return (

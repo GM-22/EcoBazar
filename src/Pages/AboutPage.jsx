@@ -1,8 +1,12 @@
-
+import PagesBanner from "../components/PagesBanner"
+import Trusted from "../components/Trusted"
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+      <PagesBanner title="About Us" />
+      <Trusted />
+    </>
   )
 }
 
