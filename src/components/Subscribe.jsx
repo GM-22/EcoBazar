@@ -48,21 +48,21 @@ const Subscribe = () => {
 
             <a
               href="#"
-              className="text-[#666666] transition hover:text-[#00B207]"
+              className="flex h-10 w-10 items-center justify-center rounded-full  text-white transition hover:bg-[#2C742F]"
             >
               <Twitter size={18} />
             </a>
 
             <a
               href="#"
-              className="text-[#666666] transition hover:text-[#00B207]"
+              className="flex h-10 w-10 items-center justify-center rounded-full  text-white transition hover:bg-[#2C742F]"
             >
               <Printerest size={18} />
             </a>
 
             <a
               href="#"
-              className="text-[#666666] transition hover:text-[#00B207]"
+              className="flex h-10 w-10 items-center justify-center rounded-full  text-white transition hover:bg-[#2C742F]"
             >
               <Instragram size={18} />
             </a>

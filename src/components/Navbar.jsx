@@ -7,6 +7,8 @@ import cartIcon from "../assets/bag.svg";
 
 import { ChevronDown } from "lucide-react";
 import CallIcon from "../assets/call.svg";
+import { Link } from "react-router";
+
 
 const Navbar = () => {
   return (
@@ -111,32 +113,35 @@ const Nav_bar = () => {
            <div className=" py-5 text-[14px] font-medium flex items-center justify-between">
             <ul className="flex items-center text-fornav gap-8 text-sm">
               <li>
-                <a href="#" className="flex items-center hover:text-white gap-1">
+              
+                <Link to="/" className="flex items-center hover:text-white gap-1">
                   <span>Home</span> <ChevronDown />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-white gap-1">
+                <Link to="/shop" className="flex items-center hover:text-white gap-1">
                   <span>Shop</span> <ChevronDown />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-white gap-1">
+                <Link to="/pages" className="flex items-center hover:text-white gap-1">
                   <span>Pages</span> <ChevronDown />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-white gap-1">
+                <Link to="/blog" className="flex items-center hover:text-white gap-1">
                   <span>Blog</span> <ChevronDown />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="flex items-center hover:text-white gap-1">
+                <Link to="/about" className="flex items-center hover:text-white gap-1">
                   <span>About Us</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <Link to="/contact" className="flex items-center hover:text-white gap-1">
+                  <span>Contact Us</span>
+                </Link>
               </li>
             </ul>
             <div className="flex items-center gap-2 text-sm">
