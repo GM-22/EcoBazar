@@ -6,7 +6,7 @@ import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import SignUpPage from './Pages/SignUpPage';
 import ShopPages from './Pages/ShopPages';
-import BlogPage from './Pages/Blogpage';
+import BlogPage from './Pages/BlogPage';
 import ContactUs from './Pages/ContactUs';
 import Pages from './Pages/Pages';
 import NotFounded404 from './Pages/NotFounded404';
